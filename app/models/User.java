@@ -37,7 +37,7 @@ public class User {
         
         public String address;
         
-        @Min(18) @Max(100)
+        @Min(16) @Max(100)
         public Integer age;
         
         public Profile() {}
